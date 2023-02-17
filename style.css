@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calc{
+  width: 400px;
+  height: 550px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 5px;
+  border: solid rgba(0,0,0,0.7);
+  border-width: 2px;
+  
+}
+
+
+#screenInp{
+  width: 360px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  pointer-events: none;
+  border-color: rgba(0,0,0,0.7);
+  border-width: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-style: solid;
+  border-width: 2px 2px 0 2px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: xx-large;
+  background-color: rgb(248, 248, 248);
+
+}
+
+#screenOut{
+  width: 360px;
+  height: 50px;
+  margin-left: 20px;
+  pointer-events: none;
+  border-color: rgba(0,0,0,0.7);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: solid;
+  border-width: 0 2px 2px 2px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: large;
+  background-color: rgb(248, 248, 248);
+  color: rgba(0,0,0,0.8);
+  
+}
+
+
+.operator{
+  
+  margin-left: 20px;
+  width: 72px;
+  height: 50px;
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(1, 198, 224, 0.2);
+  color: black;
+  border-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+}
+
+.operand{
+  
+  margin-left: 20px;
+  width: 72px;
+  height: 50px;
+  font-size: large;
+  background-color: aliceblue;
+  border-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+}
+
+.row{
+  margin-top: 20px;
+}
